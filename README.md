@@ -13,8 +13,14 @@ Megaverses are 2D spaces comprised of combinations of different astral objects: 
 ## Start the Megaverse
 
 ```bash
-# Create
-pnpm install # only need to run once
+# only need to run once
+pnpm install
+
+# only need to run once per terminal
+# set the candidateId to check YOUR megaverse map state and interact with it.
+export CROSSMINT_CANDIDATE_ID=<your_candidate_id>
+
+# start megaverse
 pnpm run start
 ```
 
