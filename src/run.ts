@@ -87,10 +87,10 @@ megaverse.initialize().then(() => {
     process.stdin.on('data', async (input) => {
         const [action, ...args] = input.toString().trim().split(' ');
         await executeAction(action, args);
+        console.log('Waiting for your next command...Available commands: [add, remove, validate, create_goal, reset, exit]');
     });
 
-    console.log('Begin Megaverse. Available commands: [add, remove, validate, create_goal, reset, exit]');
-    console.log('Waiting for your command...');
+    console.log('Waiting for your command...Available commands: [add, remove, validate, create_goal, reset, exit]');
 }).catch(error => {
     console.error('Megaverse Initialization failed: ', error);
 });

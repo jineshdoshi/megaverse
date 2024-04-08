@@ -27,8 +27,10 @@ pnpm run start
 Some of the commands that you can run after starting the Megaverse:
 
 ```bash
+# [ACTION]
 validate
 
+# [ACTION][space][ASTRAL_OBJECT_NAME][space][ROW][space][COLUMN]
 add UP_COMETH 0 0
 validate
 
